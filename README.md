@@ -1,2 +1,2 @@
 # github-action
-this repository is to test GITHUB ACTIONS 
+Build and Push Docker Image to AWS ECR Using GitHub Actions
