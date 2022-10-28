@@ -2,7 +2,7 @@ FROM node:14
 
 WORKDIR /usr/src/app
 
-COPY package.json index.js /usr/src/app 
+COPY package.json index.js /usr/src/app/
 RUN npm install 
 COPY . .
 
