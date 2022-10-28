@@ -1,21 +1,12 @@
-const express = require('express');
-const app = express();
-const path = require('path');
-
-// this will accept all the calls to root URL http://localhost:8080/
-// It will render the index.html available in the Project root directory as a Response
-app.get('/', (req,res) => {
-  res.sendFile(path.join(__dirname+'/index.html'));
-  //__dirname : It will resolve to your project folder.
-});
-
-// this will accept all the calls to the URL http://localhost:8080/about
-// It will render the about.html available in the Project root directory as a Response
-app.get('/about', (req,res) => {
-    res.sendFile(path.join(__dirname+'/about.html'));
-    //__dirname : It will resolve to your project folder.
-  });
-
-app.listen(8080, () => {
-    console.log('Listening on port 8080');
-});
+const http = require("http"); 
+//create a server object: 
+http 
+  .createServer(function (req, res) { 
+    res.write("<h1>Hello World!</h1>");  
+    //write a response to the client 
+     
+    res.end();  
+    //end the response 
+  }) 
+  .listen(8080);  
+//Server runs on localhost:8080 
