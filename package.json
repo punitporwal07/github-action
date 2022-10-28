@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
 
-    },
+},
     "keywords": [],
     "author": "PunitPorwal",
     "license": "ISC",
@@ -13,4 +13,3 @@
       "config": "^3.3.6",
       "express": "*"
     }
-  }
