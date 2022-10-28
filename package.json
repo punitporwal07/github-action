@@ -1,15 +1,15 @@
 {
-    "name": "docker_nodejs_app",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+	"name": "docker_nodejs_app",
+	"version": "1.0.0",
+	"description": "Sample NodeJS App with Express FrameWork running in Docker Container",
+	"main": "index.js",
 
-},
-    "keywords": [],
-    "author": "PunitPorwal",
-    "license": "ISC",
-    "description": "Sample NodeJS App with Express FrameWork running in Docker Container"
-    "dependencies": {
-      "config": "^3.3.6",
-      "express": "*"
-    }
+	"keywords": [],
+	"author": "PunitPorwal",
+	"license": "ISC",
+	"dependencies": {
+		"config": "^3.3.6",
+		"express": "*"
+	}
+
+}
